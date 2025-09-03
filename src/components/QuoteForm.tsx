@@ -36,13 +36,13 @@ export default function QuoteForm() {
   };
 
   return (
-    <div className="bg-white/95 w-1/2 rounded-lg p-6 ">
-      <div className="mb-6">
-        <h3 className="text-2xl font-bold text-gray-800 mb-2">Get Your Quote</h3>
-        <p className="text-gray-600">Fill out the form below and we&apos;ll get back to you within 24 hours</p>
+    <div className="bg-white/95 w-full lg:w-1/2 rounded-lg p-4 lg:p-6">
+      <div className="mb-4 lg:mb-6">
+        <h3 className="text-xl lg:text-2xl font-bold text-gray-800 mb-2">Get Your Quote</h3>
+        <p className="text-sm lg:text-base text-gray-600">Fill out the form below and we&apos;ll get back to you within 24 hours</p>
       </div>
       
-      <form action="https://public.herotofu.com/v1/276cde80-87fc-11f0-a5ef-47ffbc733d25" method="post" accept-charset="UTF-8" onSubmit={handleSubmit} className="space-y-4">
+      <form action="https://public.herotofu.com/v1/276cde80-87fc-11f0-a5ef-47ffbc733d25" method="post" accept-charset="UTF-8" onSubmit={handleSubmit} className="space-y-3 lg:space-y-4">
         <div>
           <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
             Full Name *
@@ -143,7 +143,7 @@ export default function QuoteForm() {
 
         <button
           type="submit"
-          className="w-full bg-black text-white py-3 px-4 rounded-md mt-[20%] font-medium"
+          className="w-full bg-black text-white py-2 lg:py-3 px-4 rounded-md mt-4 lg:mt-[20%] font-medium"
         >
           Request Quote
         </button>
