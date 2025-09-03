@@ -143,7 +143,7 @@ export default function QuoteForm() {
 
         <button
           type="submit"
-          className="w-full bg-black text-white py-3 px-4 rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors duration-200 font-medium"
+          className="w-full bg-black text-white py-3 px-4 rounded-md mt-[20%] font-medium"
         >
           Request Quote
         </button>
