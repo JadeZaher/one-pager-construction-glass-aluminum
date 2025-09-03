@@ -39,7 +39,7 @@ export default function QuoteForm() {
     <div className="bg-white/95 w-1/2 rounded-lg p-6 ">
       <div className="mb-6">
         <h3 className="text-2xl font-bold text-gray-800 mb-2">Get Your Quote</h3>
-        <p className="text-gray-600">Fill out the form below and we'll get back to you within 24 hours</p>
+        <p className="text-gray-600">Fill out the form below and we&apos;ll get back to you within 24 hours</p>
       </div>
       
       <form action="https://public.herotofu.com/v1/276cde80-87fc-11f0-a5ef-47ffbc733d25" method="post" accept-charset="UTF-8" onSubmit={handleSubmit} className="space-y-4">
