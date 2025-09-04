@@ -36,7 +36,7 @@ export default function QuoteForm() {
   };
 
   return (
-    <div className="bg-white/95 w-full lg:w-1/2 rounded-lg p-4 lg:p-6">
+    <div className="bg-white/95 w-full lg:w-1/2 rounded-lg h-screen p-4 lg:p-6">
       <div className="mb-4 lg:mb-6">
         <h3 className="text-xl lg:text-2xl font-bold text-gray-800 mb-2">Get Your Quote</h3>
         <p className="text-sm lg:text-base text-gray-600">Fill out the form below and we&apos;ll get back to you within 24 hours</p>
